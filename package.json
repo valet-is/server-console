@@ -1,5 +1,5 @@
 {
-  "name": "@backdropjs/frontend",
+  "name": "@valet-is/server-console",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -62,13 +62,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thinkholic/backdrop-js.git",
-    "directory": "packages/frontend"
+    "url": "https://github.com/valet-is/server-console.git"
   },
   "bugs": {
-    "url": "https://github.com/thinkholic/backdrop-js/issues"
+    "url": "https://github.com/valet-is/central/issues"
   },
   "author": "thinkholic",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9",
     "husky": "^7.0.0",
