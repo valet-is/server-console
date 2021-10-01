@@ -1,9 +1,8 @@
 {
   "name": "@valet-is/server-console",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.1.2",
     "@heroicons/react": "^1.0.1",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -28,9 +27,9 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write 'src/**/*.{js,jsx,json,css,scss,md}'"
   },
@@ -74,7 +73,6 @@
     "husky": "^7.0.0",
     "lint-staged": "^11.0.0",
     "postcss": "^7",
-    "prettier": "^2.3.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "prettier": "^2.3.2"
   }
 }
