@@ -57,8 +57,8 @@ export default function Bootstrap() {
   return (
     <Wrapper>
       <Welcome>
-        <Heading>Backdrop-js</Heading>
-        <Tagline>Welcome to the Backdrop-js - Minimalistic API Artisan</Tagline>
+        <Heading>Valet</Heading>
+        <Tagline>A minimalistic API Artisan</Tagline>
       </Welcome>
 
       <FormWrap>
@@ -94,7 +94,7 @@ export default function Bootstrap() {
                 touched={touched.appName}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                placeholder="eg. Backdrop-js API"
+                placeholder="eg. Valet"
               />
 
               <TextInput
